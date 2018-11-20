@@ -1,0 +1,21 @@
+AngularJS Moddel View Controller
+In AngularJS the MVC pattern is implemented in JavaScript and HTML. The view is defined in HTML, while the model and controller are implemented in JavaScript. 
+
+Views
+The view in an AngularJS application is in HTML. By using a simple example, we can see that HTML can all exist inside a single page. However, almost all applications will quickly move past the single view model; whereby in this case the fragments of HTML that make up the view will be stored in individual files. 
+
+
+Steps required to include and bootstrap the AngularJS framework:
+
+Reference the AngularJS framework( adding a script tag)
+
+Define the AngularJS application.
+
+Controllers
+The controller for a view is responsible for pulling together the model used by the view and setting up any corresponding dependencies needed to render the view or handle input from the consumer of the view. In AngularJS the controller is resolved by name.
+
+ 
+Models
+
+The model for a controller contains the data to be displayed, as well as data to be collected in any input fields or forms. Additionally, models may contain functions that are invoked based on user input or other activities like clicking a button or making changes to the model data.
+ 	
